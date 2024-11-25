@@ -464,5 +464,5 @@ if choice=="Contact US":
     image3 = Image.open('3 jpg.jpg')
     image4 = Image.open('4 jpg.jpg')
     st.image([image1.resize((150, 200)),np.ones([150,20]),image2.resize((150, 200)),np.ones([150,20]),image3.resize((150, 200)),np.ones([200,20]),image4.resize((150, 200))])    
-    st.text("<    "+"Hetvi             Devanshi               Riya	          Drashti >")
+    #st.text("<    "+"Hetvi             Devanshi               Riya	          Drashti >")
      
