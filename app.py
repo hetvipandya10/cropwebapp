@@ -459,10 +459,10 @@ if choice=="SignUp":
 if choice=="Contact US":
     import numpy as np
     st.subheader("Contact US Section\n\n\n")
-    image1 = Image.open('C:/Users/hetvi/OneDrive/Desktop/1 jpg....jpeg')
-    image2 = Image.open('C:/Users/hetvi/OneDrive/Desktop/2 jpg.jpg')
-    image3 = Image.open('C:/Users/hetvi/OneDrive/Desktop/3 jpg.jpg')
-    image4 = Image.open('C:/Users/hetvi/OneDrive/Desktop/4 jpg.jpg')
+    image1 = Image.open('1 jpg.jpeg')
+    image2 = Image.open('2 jpg.jpg')
+    image3 = Image.open('3 jpg.jpg')
+    image4 = Image.open('4 jpg.jpg')
     st.image([image1.resize((150, 200)),np.ones([150,20]),image2.resize((150, 200)),np.ones([150,20]),image3.resize((150, 200)),np.ones([200,20]),image4.resize((150, 200))])    
     st.text("<    "+"Hetvi             Devanshi               Riya	          Drashti >")
      
